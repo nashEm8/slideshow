@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Edu+NSW+ACT+Foundation:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            日本での生活
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider-control" onclick="goPrev()">
+                    <img src="images/prev.png">
+                </div>
+                <div class="slider-control" onclick="goNext()">
+                    <img src="images/next.png">
+                </div>
+            </div>
+            <div class="slider--width">
+                <div class="slider-item" style="background-image: url(images/1.jpg);">
+                    <div class="text-slide">
+                        Life in Japan
+                        <div class="button-link"><a href="#"> Saiba mais </a></div>
+                    </div>
+                </div>
+                <div class="slider-item" style="background-image: url(images/2.jpg);">
+                    <div class="text-slide">
+                        A mythological region
+                        <div class="button-link"><a href="#"> Saiba mais </a></div>
+                    </div>
+                </div>
+                <div class="slider-item" style="background-image: url(images/3.jpg);">
+                    <div class="text-slide">
+                        See how big Japan is
+                        <div class="button-link"><a href="#"> Saiba mais </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
