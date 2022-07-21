@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    background-color: #333;
+}
+
+.slider{
+    flex:1;
+    overflow: hidden;
+}
+
+.slider--width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+
+.slider-item{
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-slide{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.text-slide .button-link{
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    padding: 4px;
+    font-size: 25px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-link:hover a{
+    background-color: #fff;
+    color: #333;
+}
+
+.slider--controls{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-control{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slider-control img{
+    width: 30px;
+    margin: 0 10px;
+}
+
+section{
+    background-color: #333;
+    height: 50px;
+}
